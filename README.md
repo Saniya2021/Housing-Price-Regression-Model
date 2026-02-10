@@ -28,6 +28,16 @@ These concepts are fundamental to supervised machine learning and are widely use
 
 ---
 
+## 🛠️ Tech Stack
+
+- **Language:** Python  
+- **Data Handling:** Pandas, NumPy  
+- **Machine Learning:** Scikit-learn (Linear Regression)  
+- **Visualization:** Matplotlib  
+- **Development Environment:** Any Python IDE (e.g., VS Code, PyCharm, Jupyter)
+
+---
+
 ## 🛠️ How to Use
 
 1. **Prepare the Dataset**  
