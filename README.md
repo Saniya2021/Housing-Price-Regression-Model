@@ -1,58 +1,41 @@
 # 🏠 Housing Price Regression Model
 
-This project implements a simple machine learning regression workflow in Python to predict housing prices based on property size and related features. It demonstrates how to use common data science libraries to load and explore data, train a regression model, and evaluate its performance.
+This repository contains a Python-based machine learning project focused on **Linear Regression**. The goal of the project is to model the relationship between **house size** and **house price**, train a regression model using real data, and visualize both the original data and the model’s predictions.
 
-📌 Project Overview
+---
 
-The primary goal of this project is to build a Linear Regression model that predicts real estate prices using historical housing data.
+## 📂 Project Contents
 
-Key aspects include:
+The repository includes the following files:
 
-📊 Exploratory Data Analysis (EDA) on the housing dataset
-🧠 Regression model training using scikit-learn
-📈 Data visualization with matplotlib
-🐼 Data handling with pandas
+- **home-price-regression.py** – The main Python script that loads the dataset, trains the model, and visualizes the results.  
+- **home_dataset.csv** – The dataset containing house sizes and their corresponding prices.  
+- **README.md** – Project documentation.
 
-This project is ideal for beginners learning how to apply machine learning regression techniques in Python.
+---
 
+## 🎯 Project Overview
 
-🛠️ How It Works
+This project demonstrates the following machine learning and data analysis concepts:
 
-Load the Dataset
-The CSV file (home_dataset.csv) is read into a pandas DataFrame.
-Preprocess the Data
-Handle missing values, clean the dataset, and select meaningful features.
-Train the Model
-Use scikit-learn’s Linear Regression to fit the model on training data.
-Evaluate the Model
-Assess performance using metrics such as R² score and visualizations.
-Visualize Results
-Plot feature relationships and regression predictions using matplotlib.
+- 📊 Loading and manipulating data using pandas and NumPy  
+- 📈 Visualizing data using matplotlib  
+- 🧠 Training a Linear Regression model using scikit-learn  
+- 🧪 Splitting data into training and testing sets (80/20 split)  
+- 🔍 Comparing actual values with predicted values using plots  
 
-📌 Tech Stack
+These concepts are fundamental to supervised machine learning and are widely used in data science and predictive modeling.
 
-Python 3.x
-Pandas – data handling and manipulation
-NumPy – numerical operations
-Matplotlib – plotting and visualizations
-Scikit-Learn – machine learning model training
+---
 
-🚀 Getting Started
-Requirements
+## 🛠️ How to Use
 
-Install the required packages:
-pip install -r requirements.txt
+1. **Prepare the Dataset**  
+   Make sure `home_dataset.csv` is in the project directory and contains:
+   - `HouseSize` – Numeric value representing house size (e.g., square feet)  
+   - `HousePrice` – Numeric value representing house price (e.g., in millions of dollars)
 
-Run the Model
-python home-price-regression.py
-
-This executes the regression training and outputs performance metrics and visualizations.
-
-🧠 Learning Outcomes
-
-By working through this project you will learn:
-
-How to load and prepare real datasets for analysis
-How to train a regression model using scikit-learn
-How to interpret regression results and evaluate performance
-How to visualize data trends and model fits
+2. **Run the Program**  
+   Open a terminal in the project folder and run:
+   ```bash
+   python home-price-regression.py
