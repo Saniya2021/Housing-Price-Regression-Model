@@ -15,14 +15,6 @@ Key aspects include:
 
 This project is ideal for beginners learning how to apply machine learning regression techniques in Python.
 
-📦 Repository Structure
-Housing-Price-Regression-Model/
-│
-├── home-price-regression.py      # Main Python script that trains the model
-├── home_dataset.csv              # Dataset used for training/testing
-├── requirements.txt              # Required Python packages
-├── .gitignore
-└── README.md                    # This file
 
 🛠️ How It Works
 
