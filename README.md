@@ -1,4 +1,4 @@
-🏠 Housing Price Regression Model
+# 🏠 Housing Price Regression Model
 
 This project implements a simple machine learning regression workflow in Python to predict housing prices based on property size and related features. It demonstrates how to use common data science libraries to load and explore data, train a regression model, and evaluate its performance.
 
